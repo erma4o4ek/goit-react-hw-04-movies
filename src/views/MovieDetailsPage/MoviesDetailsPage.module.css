@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  padding: 10px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+.genreListItem {
+  margin: 10px;
+}
+.addInf {
+  padding: 15px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.genre:not(:last-child) {
+  margin-right: 10px;
+}
